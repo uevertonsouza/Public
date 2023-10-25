@@ -10,7 +10,7 @@ services:
     env_file:
      - /home/jenkins/env_proxy
     environment:
-     - 'ZBX_SERVER_HOST=13.82.106.188'
+     - 'ZBX_SERVER_HOST=127.0.0.1'
      - 'ZBX_SERVER_PORT=10051'
      - 'ZBX_PROXYLOCALBUFFER=24'
      - 'ZBX_PROXYOFFLINEBUFFER=24'
